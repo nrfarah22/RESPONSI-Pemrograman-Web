@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>2100018312/FarahNurIzzati</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+	<!--JAVASCRIPT perhitungan ongkir-->
+	 <script language="Javascript">   
+        function cekongkir()
+        {
+            var jarak = document.getElementById("ijarak").value
+            var ongkir = jarak * 5000;
+            document.getElementById("cetakhasil").innerText = "Ongkir = Rp. " + ongkir 
+        }
+        </script>
+
+        <!--PHP Operasi file menulis ke file .txt-->
+        
+
+	<div class="container">
+		<div class="sidekiri">
+			<div id="kontenkiri">
+				<p>BARGO</p>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="navbar">
+				<ul>
+					<li><a href="#cekongkir">Cek Ongkir</a></li>
+					<li><a href="form.php">Kirim</a></li>
+				</ul>
+			</div>
+			<div class="judul">
+				<div class="satu"><b><img src="icon.png" width="80px">Jasa Pengiriman</b></div>
+				<div class="dua">BARGO</div>
+				<div class="tiga"><br>Sehari sampai!!!</div>
+				<div class="empat">Dengan pengalaman selama 30 tahun,<br>BARGO melayani kebutuhan pelanggan setianya,<br> dengan jasa pengiriman dalam dan luar pulau.</div>
+				<div class="lima">BARGO melayani kiriman paket dan dokumen peka waktu tujuan dalam negeri melalui lebih dari 1,500 titik layanan eksklusif dari penjemputan hingga pengantaran yang tersebar di seluruh Indonesia. Layanan ini memanfaatkan moda transportasi tercepat yang tersedia dan melayani beragam jenis layanan sesuai kebutuhan pelanggan.</div>
+			</div>
+			<br><br>
+			<div class="isi">
+					<center>
+					<p id="cekongkir">Cek Ongkir</p>
+					<input class="inputjarak" type="number" id="ijarak" name="ijarak" placeholder="Masukkan jarak dalam Km"> 
+					<input type="submit" value="Cek" onclick="cekongkir()">
+					<br>
+					<p id="cetakhasil"></p>
+				</center>
+			</div>
+		</div>
+			
+		</div>
+		<div class="sidekanan"></div>
+		
+	</div>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&family=Josefin+Sans:wght@700&family=Lobster+Two:wght@700&family=Roboto+Mono:wght@600&family=Roboto+Mono:wght@500&family=PT+Sans&display=swap" rel="stylesheet">
+</body>
+</html>

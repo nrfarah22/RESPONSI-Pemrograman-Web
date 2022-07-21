@@ -1,0 +1,111 @@
+.container{
+	min-width: 1000px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(bg1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.sidekiri{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+#kontenkiri{
+	margin-top: 10px;
+	margin-left: 5px;
+	font-size: 25px;
+	font-family: 'Lobster Two', cursive;
+	color: #dfb13b;
+}
+.wrapper{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.sidekanan{
+	width: 20%;
+	height: 100%;
+	float: right;
+}
+.navbar{
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+ul {
+	list-style-type: none;
+	float: left;
+
+}
+ul li {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+ul li a {
+	text-decoration: none;
+	font-family: 'Roboto Mono', monospace;
+	color: #dfb13b;
+	padding: 5px 15px;
+	transition: 0.6%;
+	border: outset #bd7c2d;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-width: 5px;
+
+}
+ul li a:hover {
+	background-color: #dfb13b;
+	color: black;
+}
+ul li.active a {
+	background-color: green;
+	color: black;
+}
+.judul{
+	margin-top: 50px;
+	color: #dfb13b;
+}
+.satu{
+	font-size: 40px;
+	font-family: 'Roboto Mono', monospace;
+}
+.dua{
+	font-size: 60px;
+	font-family: 'Lobster Two', cursive;
+}
+.tiga{
+	font-size: 30px;
+}
+.empat{
+	font-size: 15px;
+}
+.lima{
+	font-size: 15px;
+}
+.tiga, .empat, .lima{
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	font-style: italic;
+}
+
+.isi{
+	background: rgba(255, 211, 32, 0.33);
+	color: black;
+	font-family: 'Roboto Mono', monospace;
+	border-radius: 5px;
+}
+.inputjarak{
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+}
+
+#cetakhasil{
+	color: white;
+	font-size: 16px;
+}
